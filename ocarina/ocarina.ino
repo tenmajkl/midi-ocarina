@@ -3,7 +3,12 @@
 
 Adafruit_BMP085 bmp;
 
+int blow_low = 99800;
+int blow_high = 101000;
+
+
 void setup() {
+  Serial.begin(9600);
   Serial1.begin(31250);
   bmp.begin();
   pinMode(LED_BUILTIN, OUTPUT);
@@ -29,11 +34,15 @@ void loop() {
 //    // send foukani
 
 //Serial1.write(1);
+  Serial.println(bmp.readPressure());
+  if (bmp.readPressure() < blow_low) {
+    return;
+  }
   Serial1.write(0b10010100);
   Serial1.write(69);
-  Serial1.write(map(bmp.readPressure(), 0, 2*2147483648, 1, 127));
-  digitalWrite(LED_BUILTIN, HIGH);
-  delay(100);
-  digitalWrite(LED_BUILTIN, LOW);
-  delay(400); 
+  Serial1.write(map(bmp.readPressure(), blow_low, blow_high, 1, 127));
+  //digitalWrite(LED_BUILTIN, HIGH);
+  //delay(100);
+  //digitalWrite(LED_BUILTIN, LOW);
+  //delay(400); 
 }
