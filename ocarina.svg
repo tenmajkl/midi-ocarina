@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (b0a8486, 2022-12-01)"
+   sodipodi:docname="ocarina.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.82020831"
+     inkscape:cx="1232.0041"
+     inkscape:cy="563.88114"
+     inkscape:window-width="1489"
+     inkscape:window-height="665"
+     inkscape:window-x="1061"
+     inkscape:window-y="35"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="210"
+       height="297"
+       id="page12193" />
+    <inkscape:page
+       x="220"
+       y="0"
+       width="210"
+       height="297"
+       id="page12195"
+       inkscape:export-filename="Strana 2.pdf"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Vrstva 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="rect9815"
+       style="fill:none;stroke:#050000;stroke-width:0.487087;stroke-opacity:1"
+       d="M 277.72626,264.04161 317.23939,24.528697 h -79.51291 z"
+       sodipodi:nodetypes="cccc" />
+    <path
+       id="path12197"
+       style="fill:none;stroke:#050000;stroke-width:0.500551;stroke-dasharray:none;stroke-opacity:1"
+       d="m 18.621827,27.375449 h 19.88045 L 118.02409,266.87491 H 18.621827 Z"
+       sodipodi:nodetypes="ccccc" />
+    <rect
+       style="fill:none;stroke:#050000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+       id="rect12199"
+       width="79.235153"
+       height="99.235161"
+       x="320.83255"
+       y="107.03247" />
+    <path
+       id="path13653"
+       style="fill:none;stroke:#050000;stroke-width:0.500551;stroke-dasharray:none;stroke-opacity:1"
+       d="M 162.79527,266.07715 H 142.91482 L 63.393006,26.577688 h 99.402264 z"
+       sodipodi:nodetypes="ccccc" />
+  </g>
+</svg>
