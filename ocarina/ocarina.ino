@@ -95,7 +95,7 @@ void loop()
     float pressure = bmp.readPressure();
     int velocity = max(0, min(127, int(((pressure - baseline_pressure) / pressure_range) * 127))); // todo rewrite 
 
-    if (current != last || velocity != last_velocity) {
+    if (current != last || abs(velocity - last_velocity) > 3) {
         last = current;
         last_velocity = velocity;
         noteOn(
@@ -114,6 +114,7 @@ void loop()
 
 void noteOn(int channel, int note, int velocity)
 {
+  channel--;
   Serial.println("message: " + String(channel) + " " + String(note) + " " + String(velocity));
   Serial1.write(0b10010000 | channel);
   Serial1.write(note);
@@ -122,6 +123,7 @@ void noteOn(int channel, int note, int velocity)
 
 void cc(int channel, int control, int value)
 {
+  channel--;
   Serial1.write(0b10110000 | channel);
   Serial1.write(control);
   Serial1.write(value);
